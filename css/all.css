@@ -19,6 +19,17 @@ header{
     margin-top:-50px;
 }
 
+.hero::after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Transition to showing the bigger shadow on hover */
+.hero:hover::after {
+  opacity: 1;
+}
+
 .topsection{
     z-index:-1;
 }
