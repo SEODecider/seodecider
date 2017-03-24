@@ -77,7 +77,7 @@
             <h3>Our Pick:</h3>
             SEMrush
         </div>
-        <a href="#top" class="mobilehidden">Back to top</a>
+        <a href="#top" class="mobilehidden toctop">Back to top</a>
 
 
 
@@ -107,6 +107,7 @@ $(window).scroll(function() {                  // assign scroll event listener
 
   $('.tocheader').click(function(){
     $(".tocmenu").toggleClass("mobileshow");
+    $(".toctop").toggleClass("mobileshow");
   });
 </script>
 
