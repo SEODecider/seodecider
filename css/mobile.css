@@ -4,9 +4,13 @@
     display:none;
 }
 
+.mobileshow{
+    display:block;
+}
+
 .toc{
     top:initial;
-    bottom:20px;
+    bottom:30px;
     right:0px;
     background-color:rgba(0,0,0,0.3);
 }
