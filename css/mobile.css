@@ -5,7 +5,8 @@
 }
 
 .toc{
-    top:90%;
+    top:initial;
+    bottom:20px;
     right:0px;
     background-color:rgba(0,0,0,0.3);
 }
