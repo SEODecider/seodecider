@@ -20,6 +20,9 @@ header{
         z-index:2;
 }
 
+.navigation a:hover{
+    border-bottom:4px solid black;
+}
 
 
 .hero{
