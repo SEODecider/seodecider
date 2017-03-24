@@ -9,11 +9,17 @@ html{
 
 brand{color: #212121;}
 
+.no-underline {
+    text-decoration: none;
+}
+
 header{
         box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
         display:block;
         z-index:2;
 }
+
+
 
 .hero{
     margin-top:-50px;
