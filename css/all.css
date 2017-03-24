@@ -20,7 +20,9 @@ header{
         z-index:2;
 }
 
-.navigation a:hover{
+.navigation a:hover:after{
+    content:"";
+    width:100%;
     border-bottom:4px solid black;
 }
 
