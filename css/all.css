@@ -30,8 +30,8 @@ header{
     height: 100%;
     box-shadow: 0 10px 15px rgba(0,0,0,0.5);
     opacity: 0;
-    -webkit-transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 0.2 ease-in-out;
+    transition: all 0.2 ease-in-out;
 }
 
 /* Transition to showing the bigger shadow on hover */
