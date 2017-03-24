@@ -54,6 +54,10 @@ header{
   opacity: 1;
 }
 
+.hero img{
+    width:75%;
+}
+
 .topsection{
     z-index:-1;
 }
