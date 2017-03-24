@@ -89,9 +89,8 @@ $(window).scroll(function() {                  // assign scroll event listener
     if (currentScroll >= fixmeTop) {           // apply position: fixed if you
         $('.fixme').css({                      // scroll to that element or below it
             position: 'fixed',
-            right:50px;
-            top:20px;
-            
+            right:"50px",
+            top:"50px",
         });
     } else {                                   // apply position: static
         $('.fixme').css({                      // if you scroll above it
