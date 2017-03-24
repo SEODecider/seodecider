@@ -11,6 +11,7 @@ brand{color: #212121;}
 
 .no-underline {
     text-decoration: none;
+    color:inherit;
 }
 
 header{
